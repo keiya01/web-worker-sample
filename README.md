@@ -6,7 +6,7 @@
 
 # なぜ必要か
 - 画像の処理や高度なアニメーションなどの計算量の多い処理はメインスレッドを占有し、他の処理の実行が遅れてしまう
-- 別のスレッドで実行することで メインスレッド を空けることができるので処理が止まったりすることがない( (off-the-main-thread)[https://yosuke-furukawa.hatenablog.com/entry/2019/12/31/050438] )
+- 別のスレッドで実行することで メインスレッド を空けることができるので処理が止まったりすることがない([off-the-main-thread](https://yosuke-furukawa.hatenablog.com/entry/2019/12/31/050438))
 
 # ライブラリー
 - WebWorker を使って開発されていて面白そうなものの一つが [worker-dom](https://github.com/ampproject/worker-dom)である
