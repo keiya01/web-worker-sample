@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WebWorker Sample</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Fibonacci Sequence calculator</h1>
+    <p>This application could calculate Fibonacci Sequence until less than your input number.</p>
+    <p>Please enter the number in the below form.</p>
+    <form id="form">
+      <label for="fibonacci"></label>
+      <input id="fibonacci" type="number">
+      <button type="submit">calculate</button>
+      <div id="loading-container" style="display: none;">
+        <p>loading...</p>
+      </div>
+    </form>
+    <p id="result"></p>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
